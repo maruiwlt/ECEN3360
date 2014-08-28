@@ -1,0 +1,66 @@
+!SESSION 2014-08-28 06:26:08.126 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\ECEN 3360\LAB 1
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.112
+!MESSAGE Indexed 'adc' (7 sources, 22 headers) in 0.51 sec: 848 declarations; 1,630 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.297
+!MESSAGE Indexed 'blinky' (20 sources, 33 headers) in 0.17 sec: 937 declarations; 2,258 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.422
+!MESSAGE Indexed 'extint' (7 sources, 19 headers) in 0.12 sec: 886 declarations; 1,682 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.668
+!MESSAGE Indexed 'freertos' (14 sources, 45 headers) in 0.24 sec: 1,953 declarations; 4,630 references; 0 unresolved inclusions; 18 syntax errors; 2 unresolved names (0.03%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.772
+!MESSAGE Indexed 'i2c' (8 sources, 21 headers) in 0.10 sec: 856 declarations; 1,691 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.872
+!MESSAGE Indexed 'i2cslave' (8 sources, 21 headers) in 0.09 sec: 905 declarations; 1,907 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:38.963
+!MESSAGE Indexed 'intpriority' (6 sources, 21 headers) in 0.09 sec: 843 declarations; 1,655 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.056
+!MESSAGE Indexed 'invokeisp' (6 sources, 18 headers) in 0.09 sec: 822 declarations; 1,321 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.099
+!MESSAGE Indexed 'lib_small_printf_m0' (4 sources, 16 headers) in 0.04 sec: 342 declarations; 592 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.233
+!MESSAGE Indexed 'power_api_demo' (20 sources, 33 headers) in 0.13 sec: 837 declarations; 1,654 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.342
+!MESSAGE Indexed 'pwm' (9 sources, 21 headers) in 0.10 sec: 988 declarations; 2,808 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.437
+!MESSAGE Indexed 'rs485' (8 sources, 20 headers) in 0.09 sec: 910 declarations; 1,968 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.541
+!MESSAGE Indexed 'ssp' (8 sources, 21 headers) in 0.10 sec: 936 declarations; 2,361 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.626
+!MESSAGE Indexed 'stackusage' (7 sources, 22 headers) in 0.08 sec: 845 declarations; 1,398 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.734
+!MESSAGE Indexed 'swuart' (8 sources, 20 headers) in 0.10 sec: 999 declarations; 2,594 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.810
+!MESSAGE Indexed 'systick' (6 sources, 16 headers) in 0.07 sec: 746 declarations; 1,266 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.813
+!MESSAGE Indexed 'template' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.911
+!MESSAGE Indexed 'timedwakeup' (7 sources, 20 headers) in 0.10 sec: 899 declarations; 2,422 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:39.999
+!MESSAGE Indexed 'uart' (7 sources, 19 headers) in 0.08 sec: 844 declarations; 1,613 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-28 06:26:40.096
+!MESSAGE Indexed 'wdt' (8 sources, 20 headers) in 0.09 sec: 949 declarations; 2,383 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
