@@ -1,8 +1,9 @@
 /*
  * GENERATED FILE - DO NOT EDIT
- * (C) Code Red Technologies Ltd, 2008-9
- * Generated linker script include file for 
- * (created from LinkMemoryTemplate (LPCXpresso v3.6.2 [Build 279] [29/01/2011] ) on Mon Feb 07 13:11:21 PST 2011)
+ * (C) Code Red Technologies Ltd, 2008-2014
+ * Linker script memory definitions
+ * Created from LinkMemoryTemplate
+ * By LPCXpresso v5.2.6 [Build 2137] [2013-07-08]  on Thu Aug 28 07:38:08 MDT 2014)
 */
 
 MEMORY

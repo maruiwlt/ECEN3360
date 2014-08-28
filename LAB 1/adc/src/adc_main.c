@@ -13,6 +13,8 @@
 
 #include "adc.h"
 #include "debug_printf.h"
+#include "gpio.h"
+#include "timer32.h"
 
 #ifdef ADC_DEBUG
 uint8_t ConvertDigital ( uint8_t digital )
@@ -81,11 +83,24 @@ int main (void)
 	   * in the CMSIS system_<part family>.c file.
 	   */
 
-  uint32_t i;
+  /* Initialize 32-bit timer 0. TIME_INTERVAL is defined as 10mS */
+  /* You may also want to use the Cortex SysTick timer to do this */
+  init_timer32(0, TIME_INTERVAL);
+  /* Enable timer 0. Our interrupt handler will begin incrementing
+   * the TimeTick global each time timer 0 matches and resets.
+   */
+  enable_timer32(0);
 
+  uint32_t i;
+  uint32_t Hz;
+  uint32_t toggled;
   /* Initialize ADC  */
   ADCInit( ADC_CLK );
 
+  /* Initialize GPIO (sets up clock) */
+  GPIOInit();
+  /* Set LED port pin to output */
+  GPIOSetDir( LED_PORT, LED_BIT, 1 );
   while(1)
   {
 #if CONFIG_ADC_ENABLE_BURST_MODE==1				/* Interrupt driven only */
@@ -114,7 +129,20 @@ int main (void)
 		ADCBar(i, ADCValue[i]);
 	}
 #else
-	ADCBar(0, ADCValue[0]);
+	Hz = 0;
+	toggled = 0;
+	while(timer32_0_counter%100)
+	{
+		ADCValue[0] = ADCRead(0);
+		while(!ADCIntDone);
+		ADCIntDone = 0;
+		if (toggled != (ADCValue[0]>512))
+		{
+			Hz++;
+			toggled=(ADCValue[0]>512);
+		}
+	}
+	debug_printf("Hz = %d\n", Hz);
 #endif
 #endif
 	}

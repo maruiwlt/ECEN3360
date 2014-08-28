@@ -25,7 +25,7 @@
 #define LED_BIT 7		// Bit on port for led
 #define LED_ON 1		// Level to set port to turn on led
 #define LED_OFF 0		// Level to set port to turn off led
-#define LED_TOGGLE_TICKS 200 // 100 ticks = 1 Hz flash rate
+#define LED_TOGGLE_TICKS 800 // 100 ticks = 1 Hz flash rate
 #define FAST_LED_TOGGLE_TICKS 50 // 100 ticks = 1 Hz flash rate
 #define COUNT_MAX		3 // how high to count on the LED display
 
